@@ -1,0 +1,16 @@
+{
+  "name": "compact-uuid-ts",
+  "version": "0.1.0",
+  "description": "Compact 26-char URL-safe representation of UUIDs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/kumekay/compact-uuid-ts",
+  "author": "Sergei Silnov <po@kumekay.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}
