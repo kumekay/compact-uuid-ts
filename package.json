@@ -1,16 +1,31 @@
 {
-  "name": "compact-uuid-ts",
-  "version": "0.1.0",
-  "description": "Compact 26-char URL-safe representation of UUIDs",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "repository": "https://github.com/kumekay/compact-uuid-ts",
-  "author": "Sergei Silnov <po@kumekay.com>",
-  "license": "MIT",
-  "scripts": {
-    "build": "tsc"
-  },
-  "devDependencies": {
-    "typescript": "^3.5.3"
-  }
+    "name": "zuid",
+    "version": "0.1.0",
+    "description": "Compact representation of UUIDs",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "repository": "https://github.com/kumekay/zuid",
+    "author": "Sergei Silnov <po@kumekay.com>",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest"
+    },
+    "devDependencies": {
+        "@types/jest": "^24.0.15",
+        "@typescript-eslint/eslint-plugin": "^1.13.0",
+        "@typescript-eslint/parser": "^1.13.0",
+        "eslint": "^6.1.0",
+        "eslint-config-prettier": "^6.0.0",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-prettier": "^3.1.0",
+        "jest": "^24.8.0",
+        "prettier": "^1.18.2",
+        "ts-jest": "^24.0.2",
+        "typescript": "^3.5.3",
+        "uuid": "^3.3.2",
+        "@types/uuid": "^3.4.5"
+    },
+    "dependencies": {}
 }
